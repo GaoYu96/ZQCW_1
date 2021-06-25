@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+    <title>肇庆市社区网格管理“共建、共管、共治”信息化平台</title>
+  </head>
+  <body>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/map_load.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/bmap_offline_api_v3.0_min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/map_plus.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/map_city.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/map_MarkerClusterer.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/map_TextIconOverlay.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/map_GeoUtils_min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="kehuaxianmap/AreaRestriction_min.js"></script>
+    <script>
+      window.BMap = BMap
+      window.BMapLib = BMapLib
+    </script>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
